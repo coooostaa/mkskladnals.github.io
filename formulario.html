@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="FORM-CSS.css">
+    <script src="main.js"></script>
+    <link rel="shortcut icon" href="HTML5.png" type="image/x-icon">
+    <title>JavaScript</title>
+</head>
+
+<body class="infobody">
+    <form name="fromulario" id="miform" class="form">
+        <h4>Formulario JavaScript</h4>
+        <input class="texto" type=text id="camiseta" placeholder="Precios camisetas">
+        <input class="texto" type=text id="ucamisetas" placeholder="Unidades camisetas">
+        <input type=number name="edad" id="sudaderas" class="texto" placeholder="Precios sudaderas">
+        <input type=number name="edad" id="usudaderas" class="texto" placeholder="Unidades sudaderas">
+        <i class="select"></i> <br>
+        <h3>¿Eres socio?</h3>
+        <p class="socio">
+            Sí <input type=radio id="si" value="a" name="socio">
+            No <input type=radio id="no" value="a" name="socio">
+        </p>
+        <p class="pso">Al ser socio se hace descuento 25%</p>
+        Total
+        <textarea name="total" id="total" placeholder="Esto es total de tu compra" readonly></textarea>
+        <input type="button" name="enviar" id="enviar" value="Calcular" onclick="calcular()">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" name="borrar" id="borrar" value="Borrar" onclick="eliminar()">
+        <br>
+
+        <a href="videos.html" class="ir2" target="_self">Continuar a los videos</a>
+    </form>
+
+</body>
+
+</html>

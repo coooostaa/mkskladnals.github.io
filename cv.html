@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="main.js"></script>
+    <link rel="shortcut icon" href="HTML5.png" type="image/x-icon">
+	<link rel="stylesheet" href="cv.css">
+	<title>Curriculum Vitae</title>
+	
+</head>
+<body>
+	<div class="curriculum">
+		<header>
+			<h1>Alejandro Costa Mesonero</h1>
+			<h2>Informatico</h2>
+			<ul>
+				<li>Teléfono: 666666666</li>
+				<li>Correo electrónico: alejandro.costa1@educa.madrid.org</li>
+				<li>Dirección: Morata de Tajuña, Madrid, España</li>
+			</ul>
+		</header>
+
+		<section class="seccion">
+			<div class="seccion-encabezado">Educación</div>
+			<div class="seccion-body">
+				<ul>
+					<li>
+						<h3>IES Villablanca</h3>
+						<p>tecnico en Sistemas Microinformaticos y Redes, 2021-2023</p>
+					</li>
+					<li>
+						<h3>SIES Anselmo Lorenzo</h3>
+						<p>ESO, 2017-2021</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="seccion">
+			<div class="seccion-encabezado">Experiencia laboral</div>
+			<div class="section-body">
+				<ul>
+					<li>
+						<h3>Villablanca MicroSystems</h3>
+						<p>Programador Web</p>
+						<ul>
+							<li>Mantenimiento Web</li>
+							<li>Desarrollo Web </li>
+						</ul>
+					</li>
+					<li>
+						<h3>Google</h3>
+						<p>Mantenimiento Servidores</p>
+						<ul>
+							<li>Asignacion IPs</li>
+							<li>Mantenimiento servidor HTTP</li>
+							<li>Creacion servidores</li>
+						</ul>
+					</li>
+				</ul>
+            </div>
+                <section class="seccion">
+                    <div class="seccion-encabezado">Habilidades</div>
+                    <div class="seccion-body">
+                        <ul>
+                            <li>Asertividad</li>
+                            <li>Trabajo en equipo</li>
+                            <li>Habilidades de programacion</li>
+                        </ul>
+                    </div>
+                </section>
+            
+                <section class="seccion">
+                    <div class="seccion-encabezado">Idiomas</div>
+                    <div class="seccion-body">
+                        <ul>
+                            <li>Español - Nativo</li>
+                            <li>Ingles 2 - Nivel B1</li>
+                        </ul>
+                    </div>
+                </section>
+            
+                <section class="seccion">
+                    <div class="seccion-encabezado">Contactame</div>
+                    <div class="seccion-body">
+                        <form method="post" id="cvform">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required>
+                            <br>
+                            <br>
+                            <label for="phone">Teléfono:</label>
+                            <input type="tel" id="phone" name="phone" required>
+                            <br>
+                            <br>
+                            <label for="email">Correo electrónico:</label>
+                            <input type="email" id="email" name="email" required>
+                            <br>
+                            <br>
+                            <label for="message">Mensaje:</label>
+                            <textarea id="message" name="message" required></textarea>
+                            <br>
+                            <br>
+                            <button type="submit" onclick="enviar()">Enviar</button>
+                          </form>
+                    </div>
+                </section>
+                <br>
+                <br>
+
+                <a href="formuval.html" class="cta" target="_self"><img class="cont" src=continuarcv.png></a>
+
+            </div>
+            
+
+            </body>
+            </html>

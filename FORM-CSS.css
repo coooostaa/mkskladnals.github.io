@@ -1,0 +1,114 @@
+body{
+    background-image: url(formfondo.png);background-size: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form{
+    width: 400px;background-color: #191B34;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 4px;font-family: "calibri";
+    color: white; 
+    box-shadow: 7px 13px 37px #000;
+}
+.form h4 {
+    font-size:22px ;
+    margin-bottom: 20px;
+}
+.form h3 {
+    font-size: 18px ;
+    margin-bottom: 20px;
+}
+.form p {
+    height: 40px;
+    font-size: 18px;
+}
+.texto {
+    background-color: #191B34;
+    width: 100%;padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px; 
+    border: 1px solid #4bb96c;color: white; 
+    font-size: 15px
+}
+.texto:focus{
+    border-style: solid;
+    border-color: #4bb96c;
+    border-width: 3px;
+}
+.socio{
+    font-size: 15px;
+    font-weight: 200;
+}
+#enviar{
+    width: 40%;background-color: #4bb96c;
+    border: none;
+    padding: 5px;
+    color: #191B34;
+    margin: 5px 0;
+    font-size: 16px;
+    font-family: "calibri";
+    font-weight: 580;
+    cursor: pointer;
+} 
+#borrar{
+    width: 40%;background-color: #4bb96c;
+    border: none;
+    padding: 5px;
+    color: #191B34;
+    margin: 5px 0;
+    font-size: 16px;
+    font-family: "calibri";
+    font-weight: 580;
+    cursor: pointer;
+} 
+.select select{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.select select{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background: #191B34;
+    color: white;
+    font-family: 'calibri';
+    border: 1px solid #4bb96c;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.op{
+    background-color: #191B34;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px; 
+    border: 1px solid #4bb96c;
+    color: white;
+}
+textarea{
+    background-color: darkgray; 
+    border: 2px solid #4bb96c;
+    color: #191B34;
+    width: 100%;
+    padding: 3px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: "Calibri";
+    font-size: 13px;
+}
+::placeholder{
+    color: rgb(87, 85, 85);
+}
+.pso {
+    font-size: 9px;
+    color: red;
+}
+.ir2 {
+    color: #fff
+}
